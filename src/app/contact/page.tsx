@@ -1,5 +1,5 @@
 import Navbar from '@/components/layout/Navbar'
-import Footer from '@/components/layout/Footer'
+import CinematicFooter from '@/components/ui/motion-footer'
 import PageHero from '@/components/sections/PageHero'
 import ContactForm from '@/components/sections/ContactForm'
 import { Mail, Clock, CheckCircle2 } from 'lucide-react'
@@ -145,7 +145,7 @@ export default function ContactPage() {
           </div>
         </section>
       </main>
-      <Footer />
+      <CinematicFooter />
     </>
   )
 }

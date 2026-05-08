@@ -1,5 +1,5 @@
 import Navbar from '@/components/layout/Navbar'
-import Footer from '@/components/layout/Footer'
+import CinematicFooter from '@/components/ui/motion-footer'
 import PageHero from '@/components/sections/PageHero'
 import CTASection from '@/components/sections/CTASection'
 import { Brain, Workflow, Bot, BarChart3, Plug, CheckCircle2, ArrowRight } from 'lucide-react'
@@ -216,7 +216,7 @@ export default function ServicesPage() {
 
         <CTASection />
       </main>
-      <Footer />
+      <CinematicFooter />
     </>
   )
 }

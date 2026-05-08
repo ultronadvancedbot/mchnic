@@ -1,5 +1,5 @@
 import Navbar from '@/components/layout/Navbar'
-import Footer from '@/components/layout/Footer'
+import CinematicFooter from '@/components/ui/motion-footer'
 import Hero from '@/components/sections/Hero'
 import ProblemSection from '@/components/sections/ProblemSection'
 import ServicesPreview from '@/components/sections/ServicesPreview'
@@ -25,7 +25,7 @@ export default function Home() {
         <WhyMchnic />
         <CTASection />
       </main>
-      <Footer />
+      <CinematicFooter />
     </>
   )
 }

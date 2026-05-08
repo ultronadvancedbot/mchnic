@@ -1,5 +1,5 @@
 import Navbar from '@/components/layout/Navbar'
-import Footer from '@/components/layout/Footer'
+import CinematicFooter from '@/components/ui/motion-footer'
 import PageHero from '@/components/sections/PageHero'
 import CTASection from '@/components/sections/CTASection'
 import { CheckCircle2 } from 'lucide-react'
@@ -186,7 +186,7 @@ export default function ProcessPage() {
 
         <CTASection />
       </main>
-      <Footer />
+      <CinematicFooter />
     </>
   )
 }
