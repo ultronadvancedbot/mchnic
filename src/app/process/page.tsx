@@ -1,7 +1,7 @@
 import Navbar from '@/components/layout/Navbar'
 import CinematicFooter from '@/components/ui/motion-footer'
 import PageHero from '@/components/sections/PageHero'
-import CTASection from '@/components/sections/CTASection'
+import CTASimple from '@/components/ui/cta-simple'
 import { CheckCircle2 } from 'lucide-react'
 
 const phases = [
@@ -184,7 +184,12 @@ export default function ProcessPage() {
           </div>
         </section>
 
-        <CTASection />
+        <CTASimple
+          headline="Ready to start your four-step transformation?"
+          subtext="Most clients go from first call to live AI system in under 8 weeks. The process is proven — the only variable is when you start."
+          primaryCTA={{ label: 'Book a Discovery Call', href: '/contact' }}
+          secondaryCTA={{ label: 'See Our Services', href: '/services' }}
+        />
       </main>
       <CinematicFooter />
     </>

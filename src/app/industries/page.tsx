@@ -1,7 +1,7 @@
 import Navbar from '@/components/layout/Navbar'
 import CinematicFooter from '@/components/ui/motion-footer'
 import PageHero from '@/components/sections/PageHero'
-import CTASection from '@/components/sections/CTASection'
+import CTAWithTextMarquee from '@/components/ui/cta-with-text-marquee'
 import Link from 'next/link'
 import { ArrowRight } from 'lucide-react'
 
@@ -223,7 +223,19 @@ export default function IndustriesPage() {
           </div>
         </section>
 
-        <CTASection />
+        <CTAWithTextMarquee
+          headline="Your industry."
+          accentWord="Your transformation."
+          subtext="We've built AI systems across 16+ industries. Whatever your vertical, we know the workflows, the compliance requirements, and the automation opportunities."
+          primaryCTA={{ label: 'Book a Discovery Call', href: '/contact' }}
+          marqueeItems={[
+            'Real Estate', '✦', 'Healthcare', '✦', 'Finance', '✦',
+            'E-Commerce', '✦', 'Professional Services', '✦', 'Restaurants', '✦',
+            'Legal', '✦', 'Construction', '✦', 'Marketing Agencies', '✦',
+            'Cleaning Services', '✦', 'Car Rentals', '✦', 'SaaS',
+          ]}
+          direction="horizontal"
+        />
       </main>
       <CinematicFooter />
     </>

@@ -103,9 +103,27 @@
   },
   "hotPaths": [
     {
+      "path": "src\\app\\page.tsx",
+      "accessCount": 5,
+      "lastAccessed": 1778213480842,
+      "type": "file"
+    },
+    {
       "path": "src\\components\\ui\\motion-footer.tsx",
       "accessCount": 4,
       "lastAccessed": 1778212313568,
+      "type": "file"
+    },
+    {
+      "path": "src\\app\\process\\page.tsx",
+      "accessCount": 4,
+      "lastAccessed": 1778213469045,
+      "type": "file"
+    },
+    {
+      "path": "src\\app\\industries\\page.tsx",
+      "accessCount": 4,
+      "lastAccessed": 1778213473470,
       "type": "file"
     },
     {
@@ -121,21 +139,33 @@
       "type": "file"
     },
     {
-      "path": "src\\app\\page.tsx",
+      "path": "src\\app\\globals.css",
       "accessCount": 2,
-      "lastAccessed": 1778208396668,
+      "lastAccessed": 1778213308054,
+      "type": "file"
+    },
+    {
+      "path": "src\\app\\services\\page.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1778213378286,
+      "type": "file"
+    },
+    {
+      "path": "src\\app\\about\\page.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1778213379156,
+      "type": "file"
+    },
+    {
+      "path": "src\\app\\contact\\page.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1778213380486,
       "type": "file"
     },
     {
       "path": "package.json",
       "accessCount": 1,
       "lastAccessed": 1778208134680,
-      "type": "file"
-    },
-    {
-      "path": "src\\app\\globals.css",
-      "accessCount": 1,
-      "lastAccessed": 1778208200761,
       "type": "file"
     },
     {
@@ -229,39 +259,33 @@
       "type": "file"
     },
     {
-      "path": "src\\app\\services\\page.tsx",
-      "accessCount": 1,
-      "lastAccessed": 1778208431233,
-      "type": "file"
-    },
-    {
-      "path": "src\\app\\about\\page.tsx",
-      "accessCount": 1,
-      "lastAccessed": 1778208449969,
-      "type": "file"
-    },
-    {
-      "path": "src\\app\\process\\page.tsx",
-      "accessCount": 1,
-      "lastAccessed": 1778208472964,
-      "type": "file"
-    },
-    {
-      "path": "src\\app\\industries\\page.tsx",
-      "accessCount": 1,
-      "lastAccessed": 1778208490902,
-      "type": "file"
-    },
-    {
       "path": "src\\components\\sections\\ContactForm.tsx",
       "accessCount": 1,
       "lastAccessed": 1778208512458,
       "type": "file"
     },
     {
-      "path": "src\\app\\contact\\page.tsx",
+      "path": "src\\components\\ui\\cta-3.tsx",
       "accessCount": 1,
-      "lastAccessed": 1778208526961,
+      "lastAccessed": 1778213327765,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\ui\\cta-4.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1778213341026,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\ui\\cta-with-text-marquee.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1778213364326,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\ui\\cta-simple.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1778213371411,
       "type": "file"
     }
   ],

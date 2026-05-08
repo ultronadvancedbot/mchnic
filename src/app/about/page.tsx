@@ -1,7 +1,7 @@
 import Navbar from '@/components/layout/Navbar'
 import CinematicFooter from '@/components/ui/motion-footer'
 import PageHero from '@/components/sections/PageHero'
-import CTASection from '@/components/sections/CTASection'
+import CTA3 from '@/components/ui/cta-3'
 import { Target, Zap, Shield, Users } from 'lucide-react'
 
 const values = [
@@ -143,7 +143,7 @@ export default function AboutPage() {
           </div>
         </section>
 
-        <CTASection />
+        <CTA3 />
       </main>
       <CinematicFooter />
     </>
