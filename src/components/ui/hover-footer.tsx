@@ -43,8 +43,6 @@ const COMPANY = [
   { label: 'Contact', href: '/contact' },
 ]
 
-const TECH_PARTNERS = ['Anthropic', 'OpenAI', 'NVIDIA', 'Google', 'Meta', 'Microsoft']
-
 const SOCIALS = [
   { Icon: LinkedinIcon, label: 'LinkedIn', href: '#' },
   { Icon: XIcon, label: 'X / Twitter', href: '#' },
@@ -222,42 +220,6 @@ export default function HoverFooter() {
   return (
     <footer>
       <FooterBackgroundGradient>
-        {/* Ecosystem strip */}
-        <div style={{ borderBottom: '1px solid rgba(255,255,255,0.07)', padding: '20px 48px' }}>
-          <div
-            style={{
-              maxWidth: 1200,
-              margin: '0 auto',
-              display: 'flex',
-              flexWrap: 'wrap',
-              alignItems: 'center',
-              justifyContent: 'center',
-              gap: 36,
-            }}
-          >
-            <span
-              style={{
-                fontSize: 11,
-                fontWeight: 600,
-                letterSpacing: '0.12em',
-                textTransform: 'uppercase',
-                color: 'rgba(255,255,255,0.3)',
-                marginRight: 12,
-              }}
-            >
-              Ecosystem
-            </span>
-            {TECH_PARTNERS.map((p) => (
-              <span
-                key={p}
-                style={{ fontSize: 13, fontWeight: 600, letterSpacing: '0.04em', color: 'rgba(255,255,255,0.4)' }}
-              >
-                {p}
-              </span>
-            ))}
-          </div>
-        </div>
-
         {/* Main grid */}
         <div style={{ maxWidth: 1200, margin: '0 auto', padding: '72px 48px 56px' }}>
           <div
