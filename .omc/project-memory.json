@@ -1,0 +1,263 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1778208121586,
+  "projectRoot": "C:\\AI\\mchnic\\website",
+  "techStack": {
+    "languages": [
+      {
+        "name": "JavaScript/TypeScript",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "package.json"
+        ]
+      },
+      {
+        "name": "TypeScript",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "tsconfig.json"
+        ]
+      }
+    ],
+    "frameworks": [
+      {
+        "name": "next",
+        "version": "14.2.35",
+        "category": "fullstack"
+      },
+      {
+        "name": "react",
+        "version": "18",
+        "category": "frontend"
+      },
+      {
+        "name": "react-dom",
+        "version": "18",
+        "category": "frontend"
+      }
+    ],
+    "packageManager": "npm",
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": "npm run build",
+    "testCommand": null,
+    "lintCommand": "npm run lint",
+    "devCommand": "npm run dev",
+    "scripts": {
+      "dev": "next dev",
+      "build": "next build",
+      "start": "next start",
+      "lint": "next lint"
+    }
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [
+      "public",
+      "src"
+    ],
+    "gitBranches": null
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "public": {
+      "path": "public",
+      "purpose": "Public files",
+      "fileCount": 4,
+      "lastAccessed": 1778208121565,
+      "keyFiles": [
+        "logo-dark.svg",
+        "logo-large-white.svg",
+        "logo-large.svg",
+        "logo-white.svg"
+      ]
+    },
+    "src": {
+      "path": "src",
+      "purpose": "Source code",
+      "fileCount": 0,
+      "lastAccessed": 1778208121565,
+      "keyFiles": []
+    },
+    "src\\app": {
+      "path": "src\\app",
+      "purpose": "Application code",
+      "fileCount": 4,
+      "lastAccessed": 1778208121570,
+      "keyFiles": [
+        "favicon.ico",
+        "globals.css",
+        "layout.tsx"
+      ]
+    }
+  },
+  "hotPaths": [
+    {
+      "path": "tailwind.config.ts",
+      "accessCount": 2,
+      "lastAccessed": 1778208198486,
+      "type": "file"
+    },
+    {
+      "path": "src\\app\\layout.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1778208204965,
+      "type": "file"
+    },
+    {
+      "path": "src\\app\\page.tsx",
+      "accessCount": 2,
+      "lastAccessed": 1778208396668,
+      "type": "file"
+    },
+    {
+      "path": "package.json",
+      "accessCount": 1,
+      "lastAccessed": 1778208134680,
+      "type": "file"
+    },
+    {
+      "path": "src\\app\\globals.css",
+      "accessCount": 1,
+      "lastAccessed": 1778208200761,
+      "type": "file"
+    },
+    {
+      "path": "src\\lib\\utils.ts",
+      "accessCount": 1,
+      "lastAccessed": 1778208201557,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\ui\\Button.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1778208212583,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\ui\\TypewriterEffect.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1778208218821,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\layout\\Navbar.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1778208230206,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\layout\\Footer.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1778208245581,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\sections\\Hero.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1778208266905,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\sections\\ProblemSection.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1778208282238,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\sections\\ServicesPreview.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1778208293920,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\sections\\TechShowcase.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1778208306534,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\sections\\ProcessSection.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1778208324733,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\sections\\IndustriesSection.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1778208335411,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\sections\\ResultsSection.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1778208353918,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\sections\\WhyMchnic.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1778208365448,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\sections\\CTASection.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1778208377470,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\sections\\PageHero.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1778208387667,
+      "type": "file"
+    },
+    {
+      "path": "src\\app\\services\\page.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1778208431233,
+      "type": "file"
+    },
+    {
+      "path": "src\\app\\about\\page.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1778208449969,
+      "type": "file"
+    },
+    {
+      "path": "src\\app\\process\\page.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1778208472964,
+      "type": "file"
+    },
+    {
+      "path": "src\\app\\industries\\page.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1778208490902,
+      "type": "file"
+    },
+    {
+      "path": "src\\components\\sections\\ContactForm.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1778208512458,
+      "type": "file"
+    },
+    {
+      "path": "src\\app\\contact\\page.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1778208526961,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}
