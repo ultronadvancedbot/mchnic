@@ -1,5 +1,4 @@
 import Navbar from '@/components/layout/Navbar'
-import CinematicFooter from '@/components/ui/motion-footer'
 import PageHero from '@/components/sections/PageHero'
 import CTA3 from '@/components/ui/cta-3'
 import { Target, Zap, Shield, Users } from 'lucide-react'
@@ -145,7 +144,6 @@ export default function AboutPage() {
 
         <CTA3 />
       </main>
-      <CinematicFooter />
     </>
   )
 }

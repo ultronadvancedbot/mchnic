@@ -1,5 +1,4 @@
 import Navbar from '@/components/layout/Navbar'
-import CinematicFooter from '@/components/ui/motion-footer'
 import Hero from '@/components/sections/Hero'
 import ProblemSection from '@/components/sections/ProblemSection'
 import ServicesPreview from '@/components/sections/ServicesPreview'
@@ -57,7 +56,6 @@ export default function Home() {
           direction="vertical"
         />
       </main>
-      <CinematicFooter />
     </>
   )
 }

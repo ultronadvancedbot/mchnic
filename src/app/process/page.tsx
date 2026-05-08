@@ -1,5 +1,4 @@
 import Navbar from '@/components/layout/Navbar'
-import CinematicFooter from '@/components/ui/motion-footer'
 import PageHero from '@/components/sections/PageHero'
 import CTASimple from '@/components/ui/cta-simple'
 import { CheckCircle2 } from 'lucide-react'
@@ -191,7 +190,6 @@ export default function ProcessPage() {
           secondaryCTA={{ label: 'See Our Services', href: '/services' }}
         />
       </main>
-      <CinematicFooter />
     </>
   )
 }

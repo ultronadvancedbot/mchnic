@@ -1,5 +1,4 @@
 import Navbar from '@/components/layout/Navbar'
-import CinematicFooter from '@/components/ui/motion-footer'
 import PageHero from '@/components/sections/PageHero'
 import CTAWithTextMarquee from '@/components/ui/cta-with-text-marquee'
 import Link from 'next/link'
@@ -237,7 +236,6 @@ export default function IndustriesPage() {
           direction="horizontal"
         />
       </main>
-      <CinematicFooter />
     </>
   )
 }
